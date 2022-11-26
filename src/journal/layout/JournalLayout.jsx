@@ -5,7 +5,7 @@ const drawerWidth = 240
 
 export function JournalLayout({ children }) {
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex" }} className="animate__animated animate__fadeIn animate__faster">
       <Navbar drawerWidth={drawerWidth}/>
       <Sidebar drawerWidth={drawerWidth}/>
       <Box

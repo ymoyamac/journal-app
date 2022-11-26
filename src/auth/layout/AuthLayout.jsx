@@ -1,6 +1,8 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
 
+import '../../index.css'
+
 export function AuthLayout({ children, title }) {
   return (
     <>
@@ -18,7 +20,7 @@ export function AuthLayout({ children, title }) {
       >
         <Grid
           item
-          className=""
+          className="box-shadow"
           xs={3}
           sx={{
             width: { md: 450 },
